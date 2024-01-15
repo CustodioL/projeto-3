@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja de Games</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="main.css">
+
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0 section-title">
+                Loja de Games
+            </h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#sobre-a-loja" class="nav-link active">
+                            <i class="bi bi-house-door me-1"></i>
+                            Sobre a loja
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#promocoes" class="nav-link">
+                            <i class="bi bi-house-door me-1"></i>
+                            Promoções
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#estoque" class="nav-link">
+                            <i class="bi bi-card-text me-1"></i>
+                            Jogos
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#" class="nav-link">
+                            <i class="bi bi-chat-left-text me-1"></i>
+                            Fale conosco
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+        <section id="sobre-a-loja">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="2000">
+                        <img src="./imagens/slide/loja1.jpg" alt="Interior da loja">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img src="./imagens/slide/jogo1.jpg" alt="Estantes com jogos">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img src="./imagens/slide/jogo1.jpg" alt="Estantes com jogos">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button class="active" type="button" data-bs-target="#carousel" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="3"></button>
+                </div>
+            </div>
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="./imagens/slide/loja1.jpg" class="d-block w-100 rounded" alt="Espaço interno da loja">
+                        </div>
+                        <div class="col-md-7 mt-3 mt-md-0">
+                            <h2 class="section-title">Sobre <span class="text-colored">a loja</span></h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus quam eveniet aliquid expedita beatae? Numquam dolor ad debitis error voluptas soluta, similique nesciunt atque dolore dolorum eveniet modi nam autem.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="promocoes" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Confira nossas <span class="text-colored">Promoções!</span></h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <img src="./imagens/console/ps4.jpg" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title">
+                            Playstation 4
+                        </h3>
+                        <p>De R$2900,00 por apenas R$2000,00</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="./imagens/console/xboxOne.jpg" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title">
+                            Xbox One
+                        </h3>
+                        <p>De R$2500,00 por apenas R$1800,00</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="./imagens/console/xboxOne.jpg" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title">
+                            Xbox One
+                        </h3>
+                        <p>De R$2500,00 por apenas R$1800,00</p>
+                    </div>
+            </div>
+        </section>
+        <section id="estoque" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center mb-5">
+                        Confira o nosso estoque!
+                    </h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-column nav-estoque">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#sony" class="fw-bold text-start nav-link text-colored active">Jogos para PlayStation</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#microsoft" class="fw-bold text-start nav-link text-colored">Jogos para Xbox</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#nintendo" class="fw-bold text-start nav-link text-colored">Jogos para Wii</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#consoles" class="fw-bold text-start nav-link text-colored">Consoles</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="sony">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./imagens/jogos/DS2Ps3.jpg" alt="Dark Souls 2">
+                                        <h5 class="text-colored fw-bold mt-2">Dark Souls 2</h5>
+                                        <p>R$70,00</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./imagens/jogos/gtaPs4.jpg" alt="GTA 5">
+                                        <h5 class="text-colored fw-bold mt-2">GTA 5</h5>
+                                        <p>R$100,00</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./imagens/jogos/MurderedPs4.jpg" alt="Murdered">
+                                        <h5 class="text-colored fw-bold mt-2">Murdered: soul suspect</h5>
+                                        <p>R$100,00</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./imagens/jogos/DS2Ps3.jpg" alt="Dark Souls 2">
+                                        <h5 class="text-colored fw-bold mt-2">Dark Souls 2</h5>
+                                        <p>R$70,00</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./imagens/jogos/DS2Ps3.jpg" alt="Dark Souls 2">
+                                        <h5 class="text-colored fw-bold mt-2">Dark Souls 2</h5>
+                                        <p>R$70,00</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="microsoft">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./imagens/jogos/BF4Xbox.jpg" alt="Battlefield 4">
+                                        <h5 class="text-colored fw-bold mt-2">Battlefield 4</h5>
+                                        <p>R$55,00</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./imagens/jogos/BF4Xbox.jpg" alt="Battlefield 4">
+                                        <h5 class="text-colored fw-bold mt-2">Battlefield 4</h5>
+                                        <p>R$55,00</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./imagens/jogos/titanXbox.jpg" alt="Titanfall">
+                                        <h5 class="text-colored fw-bold mt-2">TitaFall</h5>
+                                        <p>R$55,00</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./imagens/jogos/BF4Xbox.jpg" alt="Battlefield 4">
+                                        <h5 class="text-colored fw-bold mt-2">Battlefield 4</h5>
+                                        <p>R$55,00</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./imagens/jogos/BF4Xbox.jpg" alt="Battlefield 4">
+                                        <h5 class="text-colored fw-bold mt-2">Battlefield 4</h5>
+                                        <p>R$55,00</p>
+                                    </div>
+                                </div>
+                            </div>  
+                            <div class="tab-pane" id="nintendo">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./imagens/jogos/legoWii.jpg" alt="lego Star Wars 3">
+                                        <h5 class="text-colored fw-bold mt-2">lego Star Wars 3</h5>
+                                        <p>R$55,00</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./imagens/jogos/ZeldaWii.jpg" alt="Zelda Twilight Princess">
+                                        <h5 class="text-colored fw-bold mt-2">Zelda Twilight Princess</h5>
+                                        <p>R$55,00</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./imagens/jogos/titanXbox.jpg" alt="Zelda Twilight Princess">
+                                        <h5 class="text-colored fw-bold mt-2">Zelda Twilight Princess</h5>
+                                        <p>R$55,00</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./imagens/jogos/BF4Xbox.jpg" alt="lego Star Wars 3">
+                                        <h5 class="text-colored fw-bold mt-2">lego Star Wars 3</h5>
+                                        <p>R$55,00</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./imagens/jogos/BF4Xbox.jpg" alt="lego Star Wars 3">
+                                        <h5 class="text-colored fw-bold mt-2">lego Star Wars 3</h5>
+                                        <p>R$55,00</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="consoles">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./imagens/console/ps3.jpg" alt="PlayStation 3">
+                                        <h5 class="text-colored fw-bold mt-2">PlayStation 3</h5>
+                                        <p>R$1500,00</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./imagens/console/ps4.jpg" alt="PlayStation 4">
+                                        <h5 class="text-colored fw-bold mt-2">PlayStation 4</h5>
+                                        <p>R$2000,00</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./imagens/console/xbox.jpg" alt="Xbox 360">
+                                        <h5 class="text-colored fw-bold mt-2">Xbox 360</h5>
+                                        <p>R$1100,00</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./imagens/console/xboxOne.jpg" alt="Xbox One">
+                                        <h5 class="text-colored fw-bold mt-2">Xbox One</h5>
+                                        <p>R$1800,00</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="fale-conosco" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Fale <span class="text-colored">conosco</span></h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 mb-5">
+                        <form>
+                            <div class="mb-3">
+                                <label for="nome" class="form-label fw-bold text-colored">Seu nome</label>
+                                <input type="text" id="nome" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label fw-bold text-colored">Seu e-mail</label>
+                                <input type="email" id="email" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="telefone" class="form-label fw-bold text-colored">Seu telefone (opicional)</label>
+                                <input type="tel" id="telefone" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensagem" class="form-label fw-bold text-colored">Sua mensagem</label>
+                                <textarea id="mensagem" class="form-control" required></textarea>
+                            </div>
+                            <button type="submit" class="btn fw-bold">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                Redes socias
+                            </h3>
+                            <ul class="social-links">
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-facebook text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5 ms-1 me-1">
+                                    <a href="#">
+                                        <i class="bi bi-instagram text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-whatsapp text-colored"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-cursor-fill"></i>
+                                Endereço
+                            </h3>
+                            <p>
+                                Rua Teste Exemplo nº 145, Bairro Bootstrap - São Paulo - SP
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
